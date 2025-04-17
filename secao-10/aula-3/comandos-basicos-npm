@@ -1,0 +1,18 @@
+^      minor  patch
+~             patch
+2.     1.     0
+major  minor  patch
+
+npm init -y  => Inicia o npm dentro do projeto (cria o arquivo package.json)
+npm install express ou npm i express => Instala o pacote express
+npm install express -E  => Instala uma versão fixa do express (que não será atualizada)
+npm update  => Atualiza as versões dos pacotes do projeto
+npm install express --save-dev  => Instala/Move o express nas dependêncas de desenvolvimento
+npm install express --save-prod  => Instala/Move o express nas dependêncas de produção
+npm install express@2.1.0  => Instala uma versão específica do express
+npm install express@4.x  => Instala o express na versão 4
+npm uninstall exress  => Desinstala o pacote express
+npm ls  => Lista os pacotes instalados e suas denpedências
+npm ls --depth=0  => Lista os pacotes instalados com nível 0 de profundidade
+npm ls --depth=1  => Lista os pacotes instalados com nível 1 de profundidade
+npm outdated  => Lista os pacotes desatualizados
