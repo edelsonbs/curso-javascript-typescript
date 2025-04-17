@@ -11,7 +11,7 @@ npm install express --save-dev  => Instala/Move o express nas dependêncas de de
 npm install express --save-prod  => Instala/Move o express nas dependêncas de produção
 npm install express@2.1.0  => Instala uma versão específica do express
 npm install express@4.x  => Instala o express na versão 4
-npm uninstall exress  => Desinstala o pacote express
+npm uninstall express  => Desinstala o pacote express
 npm ls  => Lista os pacotes instalados e suas denpedências
 npm ls --depth=0  => Lista os pacotes instalados com nível 0 de profundidade
 npm ls --depth=1  => Lista os pacotes instalados com nível 1 de profundidade
