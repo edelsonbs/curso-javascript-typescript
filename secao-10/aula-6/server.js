@@ -5,9 +5,9 @@ const app = express();
 // CRUD -> CREATE, READ, UPDATE,   DELETE
 //         POST    GET   PUT       DELETE
 
-// http://meusite.com/ <- GET -> Entergua a página /
-// http://meusite.com/sobre <- GET -> Entergua a página /sobre
-// http://meusite.com/contato <- GET -> Entergua a página /contato
+// http://meusite.com/ <- GET -> Entrega a página /
+// http://meusite.com/sobre <- GET -> Entrega a página /sobre
+// http://meusite.com/contato <- GET -> Entrega a página /contato
 
 app.get('/', (req, res) => {
     // res.send('<b>Hello world!</b>');
